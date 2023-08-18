@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: linear-gradient(to right top, #a1a1a1, #b4b4b4, #c7c7c7, #dadada, #eeeeee);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+.base h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    margin-top: -45%;
+    position: relative;
+    color: #fff;
+}
+
+.container img{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.texto1 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    color: #ffffff;
+
+}
+
+.btn a{
+    background-image: linear-gradient(45deg, #00f, #0087f5);
+    padding: 20px 40px;
+    font-size: 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Preahvihear';
+    margin-left: 45%;
+    top: 200px;
+    position: relative;   
+    box-shadow: 2px 2px 2px solid #000000;
+}
+
+@keyframes botão {
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+.btn:hover{
+    animation-name: botão;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
